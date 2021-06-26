@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+$blackColor:#000000;
+$titleColor:#1c1c1c;
+$themeColor:#09aec8;
+$fontFamily:'Raleway', sans-serif;
+body{
+    color: $titleColor;
+    font-size: 14px;
+    line-height: 24px;
+    h1,h2,h3,h4,h5,h6{
+        padding-bottom: 0;
+        margin-bottom: 10px;
+    }
+}
