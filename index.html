@@ -1,33 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Home</title>
-</head>
-<body>
-    <header class="header-area">
-        <div class="container-md">
-            <div class="row">
-                <div class="col-lg-3">
-                   <h1 class="logo"> <a href="index.htm" >
-                    <img src="assets/images/logo.png" alt="logo">
-                </a></h1>
-                </div>
-                <div class="col-lg-3">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="assets/css/slick.css" />
+		<link rel="stylesheet" href="assets/css/default.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<title>Home</title>
+	</head>
+	<body>
+		<!-- header-area start  -->
+		<header class="header-area">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-3 col-md-4 col-12">
+						<h1 class="logo">
+							<a href="index.htm">
+								<img src="assets/images/logo.png" alt="logo" />
+							</a>
+						</h1>
+					</div>
+					<div class="col-lg-4 col-md-7 col-10">
+						<ul class="contact-language d-flex flex-wrap align-items-center">
+							<li class="phone">
+								<a
+									class="white-color fs-16 fw-600 d-inline-flex align-items-center"
+									href="tel:+370 5 20 40 944"
+									><img class="mr-10" src="assets/images/icons/phone.png" alt="phone" /> +370 5 20 40
+									944</a
+								>
+							</li>
+							<li class="language">
+								<img id="flag_img" src="assets/images/icons/lt-flag.png" alt="lt" />
+								<span id="ct_name">LT</span>
+								<i class="fa fa-angle-down"></i>
+								<ul class="language-dropdown">
+									<li>
+										<img src="assets/images/icons/lt-flag.png" alt="lt" />
+										<span class="name">LT</span>
+									</li>
+									<li>
+										<img src="assets/images/icons/en-flag.png" alt="en" />
+										<span class="name">EN</span>
+									</li>
 
-                </div>
-            </div>
-        </div>
-    </header>
-    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="assets/js/slick.min.js"></script>
-    <script type="text/javascript" src="assets/js/script.js"></script>
+									<li>
+										<img src="assets/images/icons/bd-flag.png" alt="bd" />
+										<span class="name">BD</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-5 col-md-1 col-2">
+						<ul class="responsive-trigger d-block d-lg-none">
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<ul class="mainmenu">
+							<li>
+								<a href="#paslaugos">Paslaugos </a>
+								<i class="fa fa-angle-down"></i>
+								<ul class="submenu">
+									<li><a href="index.html">Menu one</a></li>
+									<li><a href="index.html">Menu two</a></li>
+								</ul>
+							</li>
+							<li><a href="#apiemus">Apie mus</a></li>
+							<li><a href="#galerija">Galerija </a></li>
+							<li><a href="#kontaktai">Kontaktai </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header-area end  -->
+		<!-- hero-area start  -->
+		<div class="hero-area" style="background: url(assets/images/hero.jpg) no-repeat center center / cover">
+			<div class="container">
+				<div class="hero-slider-active">
+					<div class="hero-content">
+						<h2>Pasitikėjimo sulaukęs verslo partneris</h2>
+					</div>
+					<div class="hero-content">
+						<h2>Lorem ipsum dolor sit amet adipisicing.</h2>
+					</div>
+					<div class="hero-content">
+						<h2>Amet consectetur adipisicing elit quam!</h2>
+					</div>
+				</div>
+				<!-- service  -->
+				<div class="service-wrapper">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 col-12">
+							<div class="service-item">
+								<span class="image">
+									<img src="assets/images/icons/service/icon1.png" alt="11 metų patirties" />
+								</span>
+								<h3>11 metų patirties</h3>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-12">
+							<div class="service-item">
+								<span class="image">
+									<img
+										src="assets/images/icons/service/icon2.png"
+										alt="Optimalūs
+                                transportavimo planai"
+									/>
+								</span>
+								<h3>Optimalūs transportavimo planai</h3>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-12">
+							<div class="service-item">
+								<span class="image">
+									<img src="assets/images/icons/service/icon3.png" alt="Patyre darbuotojai" />
+								</span>
 
-</body>
+								<h3>Patyre darbuotojai</h3>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-12">
+							<div class="service-item border-none">
+								<span class="image">
+									<img src="assets/images/icons/service/icon4.png" alt="Krovinių draudimas" />
+								</span>
+								<h3>Krovinių draudimas</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- hero-area start  -->
+
+		<section id="paslaugos" class="service-area bg-grey pt-75">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<h2 class="section-title mb-30">Paslaugos</h2>
+						<div class="service-wrap">
+							<div class="service-img">
+								<img src="assets/images/service/img1.jpg" alt="Krovinių gabenimas autotransportu" />
+							</div>
+							<div class="service-content">
+								<h4>Krovinių gabenimas autotransportu</h4>
+								<span class="arrows">
+									<img class="color-hover" src="assets/images/icons/arrow-white.png" alt="white" />
+									<img class="color-normal" src="assets/images/icons/arrow-color.png" alt="color" />
+								</span>
+							</div>
+						</div>
+						<div class="service-wrap">
+							<div class="service-img">
+								<img src="assets/images/service/img3.jpg" alt="Krovinių gabenimas jūra" />
+							</div>
+							<div class="service-content">
+								<h4>Krovinių gabenimas jūra</h4>
+								<span class="arrows">
+									<img class="color-hover" src="assets/images/icons/arrow-white.png" alt="white" />
+									<img class="color-normal" src="assets/images/icons/arrow-color.png" alt="color" />
+								</span>
+							</div>
+						</div>
+
+						<div class="service-wrap">
+							<div class="service-img">
+								<img src="assets/images/service/img5.jpg" alt="Muitinės tarpininkavimas" />
+							</div>
+							<div class="service-content">
+								<h4>Muitinės tarpininkavimas</h4>
+								<span class="arrows">
+									<img class="color-hover" src="assets/images/icons/arrow-white.png" alt="white" />
+									<img class="color-normal" src="assets/images/icons/arrow-color.png" alt="color" />
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="service-wrap">
+							<div class="service-img">
+								<img src="assets/images/service/img2.jpg" alt="Krovinių gabenimas   oru" />
+							</div>
+							<div class="service-content">
+								<h4>Krovinių gabenimas oru</h4>
+								<span class="arrows">
+									<img class="color-hover" src="assets/images/icons/arrow-white.png" alt="white" />
+									<img class="color-normal" src="assets/images/icons/arrow-color.png" alt="color" />
+								</span>
+							</div>
+						</div>
+						<div class="service-wrap">
+							<div class="service-img">
+								<img
+									src="assets/images/service/img4.jpg"
+									alt="Krovinių gabenimas
+                                geležinkeliais"
+								/>
+							</div>
+							<div class="service-content">
+								<h4>Krovinių gabenimas geležinkeliais</h4>
+								<span class="arrows">
+									<img class="color-hover" src="assets/images/icons/arrow-white.png" alt="white" />
+									<img class="color-normal" src="assets/images/icons/arrow-color.png" alt="color" />
+								</span>
+							</div>
+						</div>
+
+						<div class="service-wrap">
+							<div class="service-img">
+								<img src="assets/images/service/img6.jpg" alt="Papildomos paslaugos" />
+							</div>
+							<div class="service-content">
+								<h4>Papildomos paslaugos</h4>
+								<span class="arrows">
+									<img class="color-hover" src="assets/images/icons/arrow-white.png" alt="white" />
+									<img class="color-normal" src="assets/images/icons/arrow-color.png" alt="color" />
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about-area" id="apiemus">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<h2 class="section-title">Apie mus</h2>
+					</div>
+					<div class="col-xl-7 col-lg-8">
+						<p class="about-content">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet sollicitudin
+							lobortis. Nunc tincidunt, est eu rhoncus gravida, neque eros aliquet felis, in tincidunt
+							nisl felis eu quam. Nunc venenatis lectus ut facilisis posuere. Nunc ac sagittis felis.
+						</p>
+						<a class="readmore" href="index.html"
+							>Skaityti daugiau <img src="assets/images/icons/arrow-color.png" alt="arrow"
+						/></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="galerija" class="gallery-area bg-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<h2 class="section-title">Galerija</h2>
+						<ul class="next-previous-arrow">
+							<li class="prev"><img src="assets/images/icons/prev.png" alt="prev" /></li>
+							<li class="next"><img src="assets/images/icons/arrow-color.png" alt="next" /></li>
+						</ul>
+					</div>
+					<div class="col-lg-8">
+						<div class="gallery-active">
+							<div class="gallery-wrap">
+								<a href="#">
+									<img src="assets/images/service/img1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="gallery-wrap">
+								<a href="#">
+									<img src="assets/images/service/img2.jpg" alt="" />
+								</a>
+							</div>
+							<div class="gallery-wrap">
+								<a href="#">
+									<img src="assets/images/service/img3.jpg" alt="" />
+								</a>
+							</div>
+							<div class="gallery-wrap">
+								<a href="#">
+									<img src="assets/images/service/img4.jpg" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 col-md-3">
+						<div class="footer-logo">
+							<img src="assets/images/icons/footer-logo.png" alt="" />
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-3">
+						<h3 class="footer-title">Rekvizitai</h3>
+						<ul class="footer-info">
+							<li>Žirmūnų g. 139, LT-09120, Vilnius</li>
+							<li>Įmonės kodas: 302324406</li>
+							<li>PVM mokėtojo kodas: LT100004621016</li>
+						</ul>
+					</div>
+					<div class="col-xl-3 col-md-3">
+						<h3 class="footer-title">Darbo laikas</h3>
+						<ul class="footer-info">
+							<li>I-IV: 9:00 - 18:00</li>
+							<li>V: 9:00 - 17:00</li>
+						</ul>
+					</div>
+					<div class="col-xl-2 col-md-3">
+						<h3 class="footer-title">Kontaktai</h3>
+						<ul class="footer-info">
+							<li>Tel.: +370 5 20 40 944</li>
+							<li>Mob.: +370 615 39 108</li>
+							<li>E-mail: info@seana.lt</li>
+						</ul>
+					</div>
+					<div class="col-12">
+						<div class="copyright d-flex flex-wrap justify-content-between">
+							<span>Visos teisės saugomos (c) 2021 </span>
+							<span>Sukurta: TEXUS</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="assets/js/slick.min.js"></script>
+		<script type="text/javascript" src="assets/js/script.js"></script>
+	</body>
 </html>
